@@ -1,5 +1,7 @@
 # Part Number Analysis
 ## 1.Data Collection and Clean
+  provide hadoop codes for accessing entire manufactory partnumber data and FindChips search term data.
+  Please check Data Collection and Clean file.
 ## 2.Part Number matching
   Provide a fast part number matching lookup with compressed data structure. It supports exact part number match and prefix match.<br />
   **Install**: <br />
