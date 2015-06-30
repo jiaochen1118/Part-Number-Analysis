@@ -11,10 +11,10 @@
      ```
     import pickle
     import dawg
-
     with open("IHS_partnumber_dawg.p") as f_open :
         IHS_partnumber = pickle.load(f_open)
      ```
+     
     You can Try the following to check if the term is exact partnumber of prefix:
    
    ```
