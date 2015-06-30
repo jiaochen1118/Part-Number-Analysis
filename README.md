@@ -7,7 +7,15 @@
     Then, download part number matching from HDFS. Use "hadoop fs -get /user/jchen/IHS_partnumber_dawg.p" to download.<br />
   **Usage**:<br />
     In python, run the following:
-   You can Try the following to check if the term is exact partnumber of prefix:
+    
+     ```
+    import pickle
+    import dawg
+
+    with open("IHS_partnumber_dawg.p") as f_open :
+        IHS_partnumber = pickle.load(f_open)
+     ```
+    You can Try the following to check if the term is exact partnumber of prefix:
    
    ```
    IHS_partnumber.has_key(u"MAX232DR")
