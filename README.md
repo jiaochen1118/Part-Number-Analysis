@@ -20,3 +20,4 @@
    IHS_partnumber.has_key(u"MAX232DR")
    IHS_partnumber.has_keys_with_prefix(u"MAX232")
    ```
+  or see the [usage]http://dawg.readthedocs.org/en/latest/.
