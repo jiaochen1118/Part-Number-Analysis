@@ -1,4 +1,4 @@
-# Part Number Analysis
+# Part Number Analysis python, R, Java
 ## 1.Data Collection and Clean
   provide hadoop codes for accessing entire manufactory partnumber data and FindChips search term data.
   Please check Data Collection and Clean file.
